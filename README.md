@@ -24,10 +24,15 @@ DevOps offers multiple advantages including, but not limited to:
 #### Four Pillars of DevOps
 
 - Ease of use
-  - Allows
+  - Automated pipelines
+  - Allows developers to spend more time coding and ensures their work is closer to business intent
 - Flexibility
+  - The ability to adopt to new market requirements
+  - Ability to extend and replace the existing tool sets
 - Robustness
   - Iterative approach to design
+  - Continuous integration
+  - Increased levels of processes automation
 - Cost
   - Initial cost but high ROI
   - Less miscommunication between teams allows for faster delivery
