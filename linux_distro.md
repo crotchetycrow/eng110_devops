@@ -3,6 +3,8 @@
 - `sudo apt-get update` - Update
 
 - `sudo apt-get upgrade` - Upgrade
+- `sudo apt-get install` - Installs a package
+- `systemctl status package_name` - Checks the status of the package
 - `uname` - Who am I (which machine am I using)
   - `uname -a` - More detail on who I am
 - `pwd` - Where am I
@@ -72,3 +74,4 @@
 - Running in background example: `sleep 100 &`
   - process command &
 - `jobs` - Shows currently running jobs
+- `kill` - Destroys program
