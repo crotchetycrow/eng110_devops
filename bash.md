@@ -30,8 +30,12 @@ Upon script creation, `chmod +x provision.sh` then `sudo ./provision.sh` to enab
 
 - Add `config.vm.provision "shell", path: "provisioning.sh"` to Vagrantfile
 
+  - configure the vm, provisioner type shell script, the provisioner is located at PATH
+
 - `vagrant provision`
+
+  - Runs any configured provisioners against the running Vagrant managed machine.
 
 - `vagrant reload`
 
-- Run localhost
+- Run localhost(the IP you set)
