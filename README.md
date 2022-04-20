@@ -37,3 +37,11 @@ DevOps offers multiple advantages including, but not limited to:
   - Initial cost but high ROI
   - Less miscommunication between teams allows for faster delivery
   - More delivered products = more money
+
+### Linux - Ubuntu distro
+
+- `sudo apt-get update` - Update
+- `sudo apt-get upgrade` - Upgrade
+- `uname` - Who am I (which machine am I using)
+  - `uname -a` - More detail on who I am
+- `pwd` - Where am I
