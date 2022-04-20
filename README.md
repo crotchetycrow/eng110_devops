@@ -45,3 +45,13 @@ DevOps offers multiple advantages including, but not limited to:
 - `uname` - Who am I (which machine am I using)
   - `uname -a` - More detail on who I am
 - `pwd` - Where am I
+- `ls` - How to check files/folders in existing locations
+  - `ls -a` - Hidden folders
+- `mkdir directory name` - Make a directory
+- `cd folder name` - Navigate to a folder
+- `cd ..` - Change back to previous directory
+  - `cd` - Change back to home location
+- `touch` - Creates a file
+  - `nano` - Creates and edits a file
+- `cat` - Allows user to view contents of a file
+- `cp location_file_name to destination_path` - Allows the user to copy a file from one location to another
