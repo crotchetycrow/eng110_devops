@@ -20,4 +20,4 @@
 
 - `sudo systemctl enable nginx` - Enable nginx
 
-Upon script creation, `sudo ./provision.sh` to enable script in terminal
+Upon script creation, `chmod +x provision.sh` then `sudo ./provision.sh` to enable script in terminal
