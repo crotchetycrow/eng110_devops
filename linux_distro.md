@@ -1,6 +1,7 @@
 ### Linux - Ubuntu distro
 
 - `sudo apt-get update` - Update
+
 - `sudo apt-get upgrade` - Upgrade
 - `uname` - Who am I (which machine am I using)
   - `uname -a` - More detail on who I am
@@ -57,3 +58,17 @@
   - First number is owner permissions
   - Second number is usergroup permissions
   - Third number is world permissions
+
+---
+
+- `fg` - Job control, allows processes to run in the foreground
+
+- `bg` - Job control, allows processes to run in the background
+- `CTRL-Z` - Stops the foreground process and places it in the background as a stopped process
+- `wait` - Job control, suspends script execution until all jobs running in background have terminated
+
+  - `wait job_identifier - wait%1` - optional job identifier argument
+
+- Running in background example: `sleep 100 &`
+  - process command &
+- `jobs` - Shows currently running jobs
