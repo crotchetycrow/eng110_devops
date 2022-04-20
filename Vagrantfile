@@ -6,8 +6,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision "shell", path: "provisioning.sh"
 
-  # config.trigger.after [:up, :provision] do |trigger|
-  #   trigger.info = "Running ./provisioning.sh locally..."
-  #   trigger.run = {path: "./provisioning.sh"}
+  # config.trigger.before :up, :provision do |trigger|
+  #   trigger.run = {inline: "provisioning.sh"}
   # end
 end
