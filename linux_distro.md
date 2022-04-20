@@ -1,4 +1,4 @@
-### Linux - Ubuntu distro
+# Linux - Ubuntu distro
 
 - `sudo apt-get update` - Update
 
@@ -25,7 +25,7 @@
   - `ps aux` - More detailed `top`
 - `kill pid` - End task/process
 
-### Permissions
+## Permissions
 
 - `ll` - Checks permissions
 - `sudo su` - Switch to `root user`
@@ -62,6 +62,8 @@
   - Third number is world permissions
 
 ---
+
+## Processes
 
 - `fg` - Job control, allows processes to run in the foreground
 
