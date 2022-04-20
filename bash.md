@@ -21,3 +21,15 @@
 - `sudo systemctl enable nginx` - Enable nginx
 
 Upon script creation, `chmod +x provision.sh` then `sudo ./provision.sh` to enable script in terminal
+
+---
+
+## Running scripts alongside `vagrant up`
+
+- Follow the above steps to create script
+
+- Add `config.vm.provision "shell", path: "provisioning.sh"` to Vagrantfile
+
+- `vagrant reload`
+
+- Run localhost
