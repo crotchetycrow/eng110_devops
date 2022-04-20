@@ -30,6 +30,8 @@ Upon script creation, `chmod +x provision.sh` then `sudo ./provision.sh` to enab
 
 - Add `config.vm.provision "shell", path: "provisioning.sh"` to Vagrantfile
 
+- `vagrant provision`
+
 - `vagrant reload`
 
 - Run localhost
