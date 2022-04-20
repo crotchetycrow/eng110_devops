@@ -21,3 +21,39 @@
 - `top` - Check running processes (ctrl + c to exit)
   - `ps aux` - More detailed `top`
 - `kill pid` - End task/process
+
+### Permissions
+
+- `ll` - Checks permissions
+- `sudo su` - Switch to `root user`
+  - `root user` is not best practice as it doesn't double check permissions
+- `chmod permission file_name` - Change file permissions
+
+  - `+` = ADD
+  - `-` = REMOVE
+  - `=` = SETS/OVERRIDES EARLIER PERMISSIONS
+
+---
+
+- `r` = read permissions
+- `w` = write permissions
+- `x` = execute permissions
+- `-` = no permissions
+
+---
+
+- `0` = No permissions
+- `1` = Execute permissions
+- `2` = Write permissions
+- `3` = Execute + write permissions
+- `4` = Read permissions
+- `5` = Read + execute permissions
+- `6` = Read + write permissions
+- `7` = Read + write + execute permissions
+
+---
+
+- Absolute numeric mode example `400`
+  - First number is owner permissions
+  - Second number is usergroup permissions
+  - Third number is world permissions
