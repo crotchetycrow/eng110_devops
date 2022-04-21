@@ -4,7 +4,7 @@ DevOps is a set of practices designed to improve synergy between teams so that a
 
 ## Why DevOps?
 
-Comapnies opt for DevOps because it removes the wall between development and operations team, thus enabling faster development of new projects whilst making it easier to maintain existing deployments.
+Companies opt for DevOps because it removes the wall between development and operations team, thus enabling faster development of new projects whilst making it easier to maintain existing deployments.
 
 ### Benefits of DevOps
 

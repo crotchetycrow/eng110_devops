@@ -77,3 +77,10 @@
   - process command &
 - `jobs` - Shows currently running jobs
 - `kill` - Destroys program
+
+---
+
+## Sending data from host to VM
+
+- `config.vm.provision "file", source: "~/.gitconfig", destination: ".gitconfig"` - This is for files. Placed in Vagrantfile (creates location if it doesn't exist)
+- `config.vm.synced_folder "/src_folder", "/vm_location"` - This is for folders. Placed in Vagrantfile (creates location if it doesn't exist)
