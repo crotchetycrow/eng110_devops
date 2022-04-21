@@ -39,3 +39,39 @@ Upon script creation, `chmod +x provision.sh` then `sudo ./provision.sh` to enab
 - `vagrant reload`
 
 - Run localhost(the IP you set)
+
+---
+
+## Automating set up process for dev env
+
+- `#!/bin/bash`
+
+- `sudo apt-get update -y`
+
+- `sudo apt-get upgrade -y`
+
+- `sudo apt-get install nginx -y`
+
+- `sudo systemctl start nginx`
+
+- `sudo systemctl enable nginx`
+
+The above is the same process as previous script.
+
+- `cd app/app` - Changes into the appropriate directory
+
+- `sudo apt-get install nodejs -y` - Installs nodejs
+
+- `sudo apt-get install python-software-properties -y` - Installs python-software-properties
+
+- `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -` -
+  Makes a curl request to https://deb.nodesource.com and downloads the specific nodejs version (in this case 12)
+
+- `sudo apt-get install -y nodejs` -
+  Installs the nodejs version requested with the above curl request
+
+- `sudo apt-get update -y` - Updates
+
+- `npm install` - Installs the dependencies
+
+- `npm start &` - Runs npm in the background

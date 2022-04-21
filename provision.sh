@@ -24,4 +24,4 @@ sudo apt-get update -y
 
 npm install
 
-npm start
+npm start &
