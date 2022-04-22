@@ -60,8 +60,6 @@ The above is the same process as previous script.
 
 - `cd app/app` - Changes into the appropriate directory
 
-- `sudo apt-get install nodejs -y` - Installs nodejs
-
 - `sudo apt-get install python-software-properties -y` - Installs python-software-properties
 
 - `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -` -
@@ -75,3 +73,43 @@ The above is the same process as previous script.
 - `npm install` - Installs the dependencies
 
 - `npm start &` - Runs npm in the background
+
+## Automating reverse proxy for VM
+
+Before changing anything in the script, please do the following:
+
+In Vagrantfile add the following code:
+
+`config.vm.provision "file", source: "./default_folder/default1", destination: "/home/vagrant/etc/nginx/sites-available/"`
+
+This adds a copy of the default file with the updated code (`default1` which is stored in `default_folder`) to the `./sites-available/` folder.
+
+- `#!/bin/bash`
+
+- `sudo apt-get update -y`
+
+- `sudo apt-get upgrade -y`
+
+- `sudo apt-get install nginx -y`
+
+- `sudo systemctl start nginx`
+
+- `sudo systemctl enable nginx`
+
+- `cd app/app`
+
+- `sudo apt-get install python-software-properties -y`
+
+- `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
+
+- `sudo apt-get install -y nodejs`
+
+- `sudo apt-get update -y`
+
+- `npm install`
+
+The above is the same process as previous script.
+
+- `rm -rf /etc/nginx/sites-available/default` - Removes default file from `/etc/nginx/sites-available/`
+
+- `npm start &`
