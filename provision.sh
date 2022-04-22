@@ -12,8 +12,6 @@ sudo systemctl enable nginx
 
 cd app/app
 
-sudo apt-get install nodejs -y
-
 sudo apt-get install python-software-properties -y
 
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
