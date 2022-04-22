@@ -22,4 +22,6 @@ sudo apt-get update -y
 
 npm install
 
+rm -rf /etc/nginx/sites-available/default
+
 npm start &
