@@ -1,7 +1,6 @@
 # Linux - Ubuntu distro
 
 - `sudo apt-get update` - Update
-
 - `sudo apt-get upgrade` - Upgrade
 - `sudo apt-get install` - Installs a package
 - `systemctl status package_name` - Checks the status of the package
