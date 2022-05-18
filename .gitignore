@@ -1,4 +1,4 @@
-node_modules
-ubuntu-xenial-16.04-cloudimg-console.log
+node_modules/
+.idea
+.ubuntu-xenial-16.04-cloudimg-console.log
 .vagrant/
-Vagrantfile

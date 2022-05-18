@@ -51,6 +51,10 @@ server {
                 proxy_pass http://localhost:3000/fibonacci/;
         }
 
+        location /posts {
+                proxy_pass http://localhost:3000/posts;
+        }
+
         # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
         #
         #location ~ \.php$ {
@@ -96,7 +100,7 @@ server {
         #location ~ /\.ht {
         #       deny all;
         #}
-}
+#}
 
 
 # Virtual Host configuration for example.com
