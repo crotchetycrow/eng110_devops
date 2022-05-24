@@ -1,4 +1,11 @@
-# What is DevOps?
+# DevOps
+
+- [Setting up a git repository, vagrant and virtualbox](https://github.com/crotchetycrow/eng110_devops/blob/master/documentation/setup.md)
+- [Linux commands and processes](https://github.com/crotchetycrow/eng110_devops/blob/master/documentation/linux_distro.md)
+- [Setting up environment variables](https://github.com/crotchetycrow/eng110_devops/blob/master/documentation/evn_variables.md)
+- [Creating bash scripts](https://github.com/crotchetycrow/eng110_devops/blob/master/documentation/bash.md)
+
+## What is DevOps?
 
 DevOps is a set of practices designed to improve synergy between teams so that a company can deliver applications and services at an improved rate.
 
@@ -37,4 +44,3 @@ DevOps offers multiple advantages including, but not limited to:
   - Initial cost but high ROI
   - Less miscommunication between teams allows for faster delivery
   - More delivered products = more money
-  
